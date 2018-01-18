@@ -1,0 +1,45 @@
+.active {
+  color: yellow;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot?3mv08y');
+  src:  url('./fonts/icomoon.eot?3mv08y#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?3mv08y') format('truetype'),
+    url('./fonts/icomoon.woff?3mv08y') format('woff'),
+    url('./fonts/icomoon.svg?3mv08y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}
